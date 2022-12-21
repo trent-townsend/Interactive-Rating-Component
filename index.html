@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Interactive rating component</title>
 
 </head>
+
 <body>
 
   <!-- Rating state start -->
   <main class="rating-component-container">
-
     <img id="star-icon" src="./images/icon-star.svg" alt="Star icon">
-
-  <h1 id="rating-title">How did we do?</h1>
-
-  <p id="rating-description">Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!</p>
-<span id="score-container">
-  <span id="one">1</span><span id="two">2</span><span id="three">3</span><span id="four">4</span><span id="five">5</span>
-</span>
-  <div id="submit-button">Submit</div>
-
-
+    <h1 id="rating-title">How did we do?</h1>
+    <p id="rating-description">Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+    <div id="score-container">
+      <a href="#"><span class="rate-button" id="one">1</span></a>
+      <a href="#"><span class="rate-button" id="one">2</span></a>
+      <a href="#"><span class="rate-button" id="one">3</span></a>
+      <a href="#"><span class="rate-button" id="one">4</span></a>
+      <a href="#"><span class="rate-button" id="one">5</span></a>
+    </div>
+    <a href="#">
+      <div id="submit-button">Submit</div>
+    </a>
   </main>
 
-
-
   <!-- Thank you state start -->
-<div class="submitted-box">
-  You selected <!-- Add rating here --> out of 5
+  <div class="submitted-box">
+    You selected <!-- Add rating here --> out of 5
 
-  Thank you!
+    Thank you!
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-</div>
+    We appreciate you taking the time to give a rating. If you ever need more support,
+    don’t hesitate to get in touch!
+  </div>
   <!-- Thank you state end -->
   <footer class="attribution">
     <div>
-    <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></span>
-    <span>•</span><span>Coded by <a href="#">Trent Townsend</a></span>
+      <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+          Mentor</a></span>
+      <span>•</span><span>Coded by <a href="#">Trent Townsend</a></span>
     </div>
   </footer>
 </body>
+
 </html>
