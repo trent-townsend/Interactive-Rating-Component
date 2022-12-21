@@ -59,7 +59,8 @@ a {
 }
 
 #score-container > span:hover {
-    background-color:hsl(217, 12%, 63%);
+    background-color:hsl(25, 97%, 53%);
+    color: white;
 }
 
 #submit-button {
@@ -74,10 +75,14 @@ a {
     letter-spacing: 0.4em;
 }
 
+#submit-button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
 .submitted-box {
     display: none;
 }
-
 
 .attribution { 
     font-size: 11px; 
