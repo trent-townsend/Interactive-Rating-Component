@@ -53,7 +53,6 @@ a {
 }
 
 .rate-button {
-  background-color: hsl(213, 19%, 20%);
   border-radius: 1000px;
   padding: 15px 20px;
   color: white; 
@@ -64,8 +63,16 @@ a {
   color: white;
 }
 
+.rate-button-inactive {
+  background-color: hsl(213, 19%, 20%);
+}
+
 .rate-button:active {
     background-color: hsl(216, 12%, 54%);
+}
+
+.rating-selected {
+  background-color: hsl(216, 12%, 54%);;
 }
 
 #submit-button {
