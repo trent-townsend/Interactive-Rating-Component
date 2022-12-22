@@ -5,9 +5,16 @@ let ratingSelected = false
 
 rate_One.onclick = (event) => {
     let rating = 1;
-    rate_One.classList.add("rating-selected");
-    rate_One.classList.remove("rate-button-inactive");
-    let ratingSelected = true;
+    if (ratingSelected == false) {
+        rate_One.classList.add("rating-selected");
+        rate_One.classList.remove("rate-button-inactive");
+        ratingSelected = !ratingSelected;
+    }
+    else if (ratingSelected == true) {
+        rate_One.classList.add("rate-button-inactive");
+        rate_One.classList.remove("rating-selected");
+        ratingSelected = !ratingSelected;
+    }
     console.log(ratingSelected)
 };
 

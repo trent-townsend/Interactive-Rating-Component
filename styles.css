@@ -58,7 +58,7 @@ a {
   color: white; 
 }
 
-.rate-button:hover {
+.rate-button-inactive:hover {
   background-color: hsl(25, 97%, 53%);
   color: white;
 }
