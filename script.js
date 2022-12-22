@@ -30,7 +30,6 @@ function submitRating() {
 }
 
 for (let i = 0; i < ratingButtons.length; i++) {
-  console.log(ratingButtons[i]);
   ratingButtons[i].addEventListener("click", selectRating);
 }
 
