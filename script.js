@@ -2,7 +2,7 @@ const ratingButtons = document.querySelectorAll(".rate-button");
 console.log(ratingButtons);
 
 function selectRating() {
-  console.log("clicked button " + this.id);
+  event.preventDefault();
   for (let i = 0; i < ratingButtons.length; i++) {
     if (ratingButtons[i].classList.contains("rating-selected")) {
       ratingButtons[i].classList.remove("rating-selected");
