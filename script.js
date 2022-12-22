@@ -1,6 +1,9 @@
 const ratingButtons = document.querySelectorAll(".rate-button");
-console.log(ratingButtons);
+const submitButton = document.querySelector("#submit-button");
+const ratingComponent = document.querySelector(".rating-component-container");
+const submittedBox = document.querySelector(".submitted-box");
 const scores = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5}
+let selected = false
 
 function selectRating() {
   event.preventDefault();
@@ -12,10 +15,23 @@ function selectRating() {
   }
   this.classList.add("rating-selected");
   this.classList.remove("rate-button-inactive");
-  let rating = scores[this.id]
+  rating = scores[this.id]
+  selected = true
+}
+
+function submitRating() {
+    event.preventDefault();
+    if (selected == true) {
+        console.log("Submit rating of " + rating)
+        ratingComponent.style.display = "none";
+        submittedBox.style.display = "block";
+        document.getElementById("rating").innerHTML = ` You selected ${rating} out of 5`;
+    }
 }
 
 for (let i = 0; i < ratingButtons.length; i++) {
   console.log(ratingButtons[i]);
   ratingButtons[i].addEventListener("click", selectRating);
 }
+
+submitButton.addEventListener("click", submitRating)
