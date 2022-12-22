@@ -1,20 +1,19 @@
-const rate_One = document.querySelector("#one");
-const rate_Two = document.querySelector("#two");
-const rate_Three = document.querySelector("#three");
-let ratingSelected = false
+const ratingButtons = document.querySelectorAll(".rate-button");
+console.log(ratingButtons);
 
-rate_One.onclick = (event) => {
-    let rating = 1;
-    if (ratingSelected == false) {
-        rate_One.classList.add("rating-selected");
-        rate_One.classList.remove("rate-button-inactive");
-        ratingSelected = !ratingSelected;
+function selectRating() {
+  console.log("clicked button " + this.id);
+  for (let i = 0; i < ratingButtons.length; i++) {
+    if (ratingButtons[i].classList.contains("rating-selected")) {
+      ratingButtons[i].classList.remove("rating-selected");
+      ratingButtons[i].classList.add("rate-button-inactive");
     }
-    else if (ratingSelected == true) {
-        rate_One.classList.add("rate-button-inactive");
-        rate_One.classList.remove("rating-selected");
-        ratingSelected = !ratingSelected;
-    }
-    console.log(ratingSelected)
-};
+  }
+  this.classList.add("rating-selected");
+  this.classList.remove("rate-button-inactive");
+}
 
+for (let i = 0; i < ratingButtons.length; i++) {
+  console.log(ratingButtons[i]);
+  ratingButtons[i].addEventListener("click", selectRating);
+}
