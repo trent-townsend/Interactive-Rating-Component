@@ -31,7 +31,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: 
+- Live Site URL: https://trent-townsend.github.io/Interactive-Rating-Component/
 - Solution URL: 
     - [HTML](https://github.com/trent-townsend/Interactive-Rating-Component/blob/main/index.html)
     - [CSS](https://github.com/trent-townsend/Interactive-Rating-Component/blob/main/styles.css)
