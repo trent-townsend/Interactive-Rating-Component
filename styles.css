@@ -98,10 +98,41 @@ a {
   max-width: 340px;
   align-self: center;
   margin-top: auto;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   background-color: hsl(213, 19%, 18%);
   padding: 35px;
   border-radius: 25px;
-  
+}
+
+#thankyou-illustration {
+  align-self: center;
+}
+
+#rating {
+  align-self: center;
+  color: hsl(25, 97%, 53%);
+  background-color:  hsl(213, 19%, 20%);
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.submitted-box > h2, p {
+  align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.submitted-box > h2 {
+  margin-top: 25px;
+}
+
+.submitted-box > p {
+  color: hsl(216, 12%, 54%);
+  line-height: 1.8em;
+  margin-top: 20px;
 }
 
 .attribution {

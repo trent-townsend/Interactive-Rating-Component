@@ -24,7 +24,7 @@ function submitRating() {
     if (selected == true) {
         console.log("Submit rating of " + rating)
         ratingComponent.style.display = "none";
-        submittedBox.style.display = "block";
+        submittedBox.style.display = "flex";
         document.getElementById("rating").innerHTML = ` You selected ${rating} out of 5`;
     }
 }
