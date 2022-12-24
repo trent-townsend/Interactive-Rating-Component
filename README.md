@@ -1,17 +1,14 @@
-# Frontend Mentor - Interactive rating component solution
+# Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
+This is my solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 ## Table of contents
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [Built with](#built-with)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,16 +22,20 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-
-![](./screenshot.jpg)
+#### Rating Component
+![Screenshot-inactive-rating-component.png](./images/Interactive_rating_screenshot.png)
+#### Rating Component Active States
+![Screenshot-inactive-rating-component](./images/Interactive_rating_component_active_state_screenshot.png)
+#### Submitted Screen
+![Screenshot-submitted-screen](./images/Interactive_rating_component_submitted_screenshot.png)
 
 
 ### Links
 - Live Site URL: 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-
-## My process
-
+- Solution URL: 
+    - [HTML](https://github.com/trent-townsend/Interactive-Rating-Component/blob/main/index.html)
+    - [CSS](https://github.com/trent-townsend/Interactive-Rating-Component/blob/main/styles.css)
+    - [JavaScript](https://github.com/trent-townsend/Interactive-Rating-Component/blob/main/script.js)
 
 ### Built with
 - Semantic HTML5 markup

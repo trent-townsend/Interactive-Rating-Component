@@ -55,7 +55,7 @@ a {
 .rate-button {
   border-radius: 1000px;
   padding: 15px 20px;
-  color: white; 
+  color: white;
 }
 
 .rate-button-inactive:hover {
@@ -68,11 +68,11 @@ a {
 }
 
 .rate-button:active {
-    background-color: hsl(216, 12%, 54%);
+  background-color: hsl(216, 12%, 54%);
 }
 
 .rating-selected {
-  background-color: hsl(216, 12%, 54%);;
+  background-color: hsl(216, 12%, 54%);
 }
 
 #submit-button {
@@ -113,13 +113,14 @@ a {
 #rating {
   align-self: center;
   color: hsl(25, 97%, 53%);
-  background-color:  hsl(213, 19%, 20%);
-  margin-top: 20px;
+  background-color: hsl(213, 19%, 20%);
+  margin-top: 25px;
   padding: 10px 15px;
   border-radius: 20px;
 }
 
-.submitted-box > h2, p {
+.submitted-box > h2,
+p {
   align-self: center;
   text-align: center;
   margin: 0;
