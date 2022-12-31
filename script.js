@@ -17,12 +17,12 @@ function selectRating() {
   this.classList.remove("rate-button-inactive");
   rating = scores[this.id]
   selected = true
+  console.log(rating)
 }
 
 function submitRating() {
   event.preventDefault();
   if (selected == true) {
-    console.log("Submit rating of " + rating)
     ratingComponent.style.display = "none";
     submittedBox.style.display = "flex";
     document.getElementById("rating").innerHTML = ` You selected ${rating} out of 5`;

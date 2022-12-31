@@ -14,27 +14,44 @@
 <body>
 
   <!-- Rating state start -->
-  <main class="rating-component-container">
-    <img id="star-icon" src="./images/icon-star.svg" alt="Star icon">
+  <form class="rating-component-container">
+  <fieldset>
+    <img id="star-icon" src="./images/icon-star.svg" alt="" aria-hidden=“true”>
     <h1 id="rating-title">How did we do?</h1>
     <p id="rating-description">Please let us know how we did with your support request. All feedback is appreciated
       to help us improve our offering!</p>
     <div id="score-container">
-      <a href="#"><span class="rate-button rate-button-inactive" id="one">1</span></a>
-      <a href="#"><span class="rate-button rate-button-inactive" id="two">2</span></a>
-      <a href="#"><span class="rate-button rate-button-inactive" id="three">3</span></a>
-      <a href="#"><span class="rate-button rate-button-inactive" id="four">4</span></a>
-      <a href="#"><span class="rate-button rate-button-inactive" id="five">5</span></a>
+      <input type="radio" id="rate-one" value="1" name="rating"/>
+      <label for="rate-one">
+        <span class="rate-button rate-button-inactive" id="one">1</span>
+      </label>
+      <input type="radio" id="rate-two" value="2" name="rating" />
+      <label for="rate-two">
+        <a href="#"><span class="rate-button rate-button-inactive" id="two">2</span></a>
+      </label>
+      <input type="radio" id="rate-three" value="3" name="rating" />
+      <label for="rate-three">
+        <a href="#"><span class="rate-button rate-button-inactive" id="three">3</span></a>
+      </label>
+      <input type="radio" id="rate-four" value="4" name="rating" />
+      <label for="rate-four">
+        <a href="#"><span class="rate-button rate-button-inactive" id="four">4</span></a>
+      </label>
+      <input type="radio" id="rate-five" value="5" name="rating" />
+      <label for="rate-five">
+        <a href="#"><span class="rate-button rate-button-inactive" id="five">5</span></a>
+      </label>
     </div>
     <a href="#">
       <div id="submit-button">Submit</div>
     </a>
-  </main>
+    </fieldset>
+  </form>
 
   <!-- Thank you state start -->
   <div class="submitted-box">
 
-    <img id="thankyou-illustration" src="./images/illustration-thank-you.svg" alt="">
+    <img id="thankyou-illustration" src="./images/illustration-thank-you.svg" alt="" aria-hidden="true">
     <div id="rating"></div>
 
     <h2>Thank you!</h2>
